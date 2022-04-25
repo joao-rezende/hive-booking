@@ -1,0 +1,7 @@
+.main {
+    background-image: url("/img/bg.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center -30px;
+}
+

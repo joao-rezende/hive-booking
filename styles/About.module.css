@@ -1,0 +1,58 @@
+.main {
+    background-image: url("/img/bg-about.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center -30px;
+}
+
+.container {
+    position: relative;
+    height: calc(100vh - 71px);
+    width: 100%;
+}
+
+.boxAbout {
+    position: relative;
+    top: 50%;
+    border: 1px solid #444;
+    background-color: #101010;
+    color: white;
+    padding: 9px 30px 30px;
+    max-height: calc(100vh - 200px);
+    border-radius: 10px;
+    width: 35%;
+    margin-left: 57.5%;
+    text-align: center;
+}
+
+.boxAboutContainer {
+    color: #ddd;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: calc(100vh - 325px);
+}
+
+.boxAboutContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.boxAboutContainer p {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    background-color: #0d0d0d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

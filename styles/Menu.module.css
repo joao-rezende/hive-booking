@@ -1,0 +1,32 @@
+.navbar {
+    background-color: rgba(20, 20, 20, .7);
+    width: 100%;
+    position: relative;
+    top: 0;
+    color: white;
+    height: 71px;
+}
+
+.brand {
+    float: left;
+    padding: 11px 15px;
+    position: absolute;
+}
+
+.listNavbar {
+    height: 71px;
+    list-style: none;
+    text-align: center;
+}
+
+.listNavbar li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+
+.listNavbar li > span {
+    padding: 25px 22px;
+}

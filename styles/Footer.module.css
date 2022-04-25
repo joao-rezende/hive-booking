@@ -1,0 +1,47 @@
+.footer {
+    padding: 2rem 0;
+    background-color: #0d0d0d;
+    color: #d2d2d2;
+}
+
+.contentFooter {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+}
+
+.contentFooter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contentFooter h4 {
+    font-weight: bold;
+    color: #e2e2e2;
+}
+
+.contentFooter ul li:not(:last-child) {
+    padding-bottom: 7px;
+}
+
+.contentFooter input {
+    background-color: transparent;
+    border: 1px solid #404040;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+.subscribeButton {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 9.5px 13px;
+    color: #b48225;
+    background-color: #EEE;
+    border: none;
+}

@@ -1,0 +1,79 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    color: white;
+    background-image: url('/img/bg-menu.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.buttons {
+    padding: 10px;
+    text-align: right;
+}
+
+.closeBtn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.menuList {
+    list-style: none;
+    padding: 20px 40px;
+    font-weight: bold;
+    height: calc(100vh - 145px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.menuList li {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuList li > span {
+    margin-right: 12px !important;
+}
+
+.menuList li a {
+    line-height: 1;
+    padding-bottom: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer > div:nth-child(1) {
+    width: 30%;
+}
+
+.footer > div:nth-child(2) {
+    width: 40%;
+    text-align: center;
+}
+
+.footer > div:nth-child(3) {
+    width: 30%;
+    text-align: right;
+}
