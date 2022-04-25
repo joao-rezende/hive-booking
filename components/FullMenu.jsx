@@ -29,13 +29,13 @@ export default function FullMenu({ isVisible, setIsVisible }) {
                     <Image src="/img/icon-list.png"
                         height={25}
                         width={25} />
-                    <Link href="#">about us</Link>
+                    <Link href="/about">about us</Link>
                 </li>
                 <li>
                     <Image src="/img/icon-list.png"
                         height={25}
                         width={25} />
-                    <Link href="#">artists</Link>
+                    <Link href="/artists">artists</Link>
                 </li>
                 <li>
                     <Image src="/img/icon-list.png"

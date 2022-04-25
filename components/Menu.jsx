@@ -20,7 +20,7 @@ export default function Menu() {
                     <ActiveLink href="/about">About Us</ActiveLink>
                 </li>
                 <li>
-                    <ActiveLink href="#">Artists</ActiveLink>
+                    <ActiveLink href="/artists">Artists</ActiveLink>
                 </li>
                 <li>
                     <ActiveLink href="#">Booking</ActiveLink>
