@@ -41,7 +41,7 @@ export default function FullMenu({ isVisible, setIsVisible }) {
                     <Image src="/img/icon-list.png"
                         height={25}
                         width={25} />
-                    <Link href="#">bookings</Link>
+                    <Link href="/booking">bookings</Link>
                 </li>
                 <li>
                     <Image src="/img/icon-list.png"

@@ -1,0 +1,98 @@
+.main {
+    background-color: #101010;
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 10px 20px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.email label {
+    font-size: 22px;
+}
+
+.email label a {
+    cursor: pointer;
+    color: #db9a03;
+}
+
+.orOption {
+    margin-top: 5px;
+}
+
+.titleContent {
+    margin: 30px 0 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contentArtists {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contentArtists>div {
+    margin: 8px;
+}
+
+.formGroup {
+    margin-bottom: 10px;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.label>label:nth-child(2) {
+    color: #aaa;
+}
+
+.input {
+    padding: 3px 12px;
+    border: 0.08em solid #424242;
+    background-color: #111111;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+}
+
+
+:not(textarea).input {
+    height: 35px;
+}
+
+.btnBox {
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.btnSubmit {
+    cursor: pointer;
+    border: 1px solid #222;
+    background-color: #282828;
+    color: white;
+    height: 50px;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btnSubmit:hover {
+    border-color: #4f4f4f;
+    background: #353535;
+}

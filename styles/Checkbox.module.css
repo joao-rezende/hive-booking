@@ -1,0 +1,32 @@
+.container {
+    cursor: pointer;
+    background-color: #202020;
+    padding: 10px 14px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
+.container::before {
+    content: "";
+    margin-top: 0;
+    margin-right: 8px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #393939;
+    border: 1px solid #080808;
+}
+
+.active::before {
+    background: #db9a03;
+}
+
+.container:hover {
+    background-color: #343434;
+}
